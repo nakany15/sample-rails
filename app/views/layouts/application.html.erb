@@ -9,6 +9,22 @@
   </head>
 
   <body>
+	<header>
+	  <div class="header-logo">
+	    <!--トップページへのリンクにしてください-->
+	    <a href = />なかのさん</a>
+	  </div>
+	  <ul class="header-menus">
+	    <li>
+	      <!--サービス紹介ページへのリンクにしてください-->
+	      <%= link_to("「なかのさん」とは  ","/about") %>
+	    </li>
+	    <li>
+	      <%= link_to("Login!","/posts/index")%>
+	    </li>
+	  </ul>
+	</header>
+
     <%= yield %>
   </body>
 </html>
