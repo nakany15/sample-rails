@@ -165,8 +165,11 @@ header {
 
 /* about ================================ */
 .about-main {
-  padding: 180px 8% 0;
+  padding: 180px 8% 40%;
   color: white;
+  height:auto;
+  background-image: url("/brussels.jpg");
+
 }
 
 .about-main h2 {
