@@ -167,7 +167,10 @@ header {
 .about-main {
   padding: 180px 8% 40%;
   color: white;
-  height:auto;
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  background-size: cover;
+
   background-image: url("/brussels.jpg");
 
 }
