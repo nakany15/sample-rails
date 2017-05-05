@@ -1,0 +1,14 @@
+<div class="main posts-edit">
+  <div class="container">
+    <h1 class="form-heading">編集する</h1>
+  </div>
+  <%= form_tag("/posts/#{@post.id}/update") do %>
+
+		<div class="form-edit">
+		  <div class="edit-body">
+		    <textarea name = "content"><%= @post.content %></textarea>
+		    <input type="submit" value="保存">
+		  </div>
+		</div> 
+	<% end %>
+</div>
