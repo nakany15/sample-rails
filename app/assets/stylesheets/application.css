@@ -31,7 +31,7 @@ body {
 }
 
 @media(max-width:700px){
-	.herder-logo{width:30%;
+	.herder-logo{width:15px 15px;
                font-size:10px;
               }
 	.header-logo a{font-size:5px;}
