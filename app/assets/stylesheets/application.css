@@ -31,7 +31,9 @@ body {
 }
 
 @media(max-width:700px){
-	.herder-logo{width:30%;}
+	.herder-logo{width:30%;
+               font-size:10px;
+              }
 	.header-logo a{font-size:5px;}
 	.herder-logo li{font-size:5px;}
 }
@@ -56,7 +58,7 @@ body {
 /* ヘッダー ================================ */
 header {
   height: 60px;
-  position: absolute;
+  position: relative;
   z-index: 1;
   width: 100%;
   opacity:0.8;
