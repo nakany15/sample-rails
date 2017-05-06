@@ -116,3 +116,7 @@ header {
   margin: 0;
   font-size: 13px;
 }
+
+*{
+	box-sizing:border-box;
+}
