@@ -11,10 +11,13 @@
 
   <body>
 	<header>
-	  <div class="header-logo">
+	  <ul class="header-logo">
 	    <!--トップページへのリンクにしてください-->
-	    <a href = />なかのさん</a>
-	  </div>
+	    <li class = "fa fa-battery-empty">
+	      <%= link_to("なかのさん","/") %>	
+	    </li>
+	  </ul>
+
 	  <ul class="header-menus">
 	    <li>
 	      <!--サービス紹介ページへのリンクにしてください-->
@@ -24,6 +27,7 @@
 	      <%= link_to("Login!","/posts/index")%>
 	    </li>
 	  </ul>
+	  
 	</header>
 
     <%= yield %>

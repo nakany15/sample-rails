@@ -15,6 +15,9 @@
  */
 
  /* 共通レイアウト ================================ */
+/*
+ *= require font-awesome
+ */
 
  *{
 	box-sizing:border-box;
@@ -28,7 +31,7 @@ body {
 }
 
 @media(mad-with:670px){
-	header-logo{font-size:14px;}
+	header-logo a{font-size:10px;}
 }
 
 .main {
@@ -57,30 +60,38 @@ header {
   opacity:0.8;
 }
 
-.header-logo {
+.header-logo{
   float: left;
-  padding: 0 20px;
-  color: white;
-  font-size: 22px;
-  line-height: 60px;
-  border-radius:4px;
-  transition:all 0.5s;
-  font-family:arial unicode ms;
+  padding-left: 20px;
+
 }
 
+.header-logo li{
+  float: left;
+  line-height: 50px;
+  font-size: 24px;
+  color: white;
+  padding:0 15px;
+  border:solid 1px;
+  transition:all 0.5s;
+  border-radius:4px;
+}
 
-.header-logo:hover{
+.header-logo li:hover{
   background-color: rgba(255,255,255,0.3);
 }
 
-.header-logo:active{
+.header-logo li:active{
   background-color:rgba(255,255,255,0);
 }
 
+
 .header-logo a{
   color: white;
-  font-size: 22px;
+  font-weight:900px;
+  font-size: 24px;
 }
+
 
 .header-menus {
   float: right;
@@ -89,7 +100,7 @@ header {
 
 .header-menus li {
   float: left;
-  line-height: 64px;
+  line-height: 50px;
   font-size: 13px;
   color: white;
   padding:0 15px;
@@ -113,16 +124,4 @@ header {
   color: white;
 }
 
-.header-menus .fa {
-  padding-right: 5px;
-}
-
-.header-menus input[type="submit"] {
-  padding: 0 20px;
-  float: left;
-  line-height: 64px;
-  color: white;
-  margin: 0;
-  font-size: 13px;
-}
 
