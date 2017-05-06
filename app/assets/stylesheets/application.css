@@ -106,7 +106,7 @@ header {
 
 .header-menus li {
   float: left;
-  line-height: 50px;
+  line-height: 4vh;
   color: white;
   padding:0 15px;
   transition:all 0.5s;
