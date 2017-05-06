@@ -93,7 +93,7 @@ header {
 .header-logo a{
   color: white;
   font-weight:900px;
-  font-size: 3vh;
+  font-size: 2.5vh;
   font-family:arial unicode ms;
 
 }
@@ -101,13 +101,12 @@ header {
 
 .header-menus {
   float: right;
-  padding-right: 20px;
+  padding-right: 2vh;
 }
 
 .header-menus li {
   float: left;
   line-height: 50px;
-  font-size: 13px;
   color: white;
   padding:0 15px;
   transition:all 0.5s;
@@ -126,7 +125,7 @@ header {
 
 .header-menus a {
   float: left;
-  font-size: 13px;
+  font-size: 1.5vh;
   color: white;
 }
 
