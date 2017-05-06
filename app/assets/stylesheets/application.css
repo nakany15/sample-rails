@@ -32,6 +32,7 @@ body {
 
 @media(mad-with:670px){
 	header-logo a{font-size:10px;}
+	herder-logo li{font-size:10px;}
 }
 
 .main {
