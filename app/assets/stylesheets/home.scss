@@ -79,24 +79,31 @@ form input[type="submit"] {
 }
 
 .login{
-	size: 100px;
 	padding-top:300px;
+  position:relative;
+  top:30px;
 
 }
 
 .login a{
-  line-height:100px;
+  vertical-align: center;
+  /*line-height:100px;*/
   font-size:36px;
   padding:5px 20px;
   color:white;
   opacity:0.6;
   border-color:white ;
   border:solid;
+  border-radius:4px;
   transition: all 0.5s;
+  cursor:pointer;
 
 }
 .login a:hover {
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.3);
+}
+.login a:active{
+  background-color:rgba(255,255,255,0);
 }
 
 /* about ================================ */

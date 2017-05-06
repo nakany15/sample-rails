@@ -45,15 +45,27 @@ header {
   position: absolute;
   z-index: 1;
   width: 100%;
-  opacity:0.6;
+  opacity:0.8;
 }
 
 .header-logo {
   float: left;
-  padding-left: 20px;
+  padding: 0 20px;
   color: white;
   font-size: 22px;
-  line-height: 64px;
+  line-height: 60px;
+  border-radius:4px;
+  transition:all 0.5s;
+  font-family:arial unicode ms;
+}
+
+
+.header-logo:hover{
+  background-color: rgba(255,255,255,0.3);
+}
+
+.header-logo:active{
+  background-color:rgba(255,255,255,0);
 }
 
 .header-logo a{
@@ -71,8 +83,20 @@ header {
   line-height: 64px;
   font-size: 13px;
   color: white;
-  padding-left: 15px;
+  padding:0 15px;
+  transition:all 0.5s;
+  border-radius:4px;
+
 }
+
+.header-menus li:hover{
+  background-color: rgba(255,255,255,0.3);
+}
+
+.header-menus li:active{
+  background-color:rgba(255,255,255,0);
+}
+
 
 .header-menus a {
   float: left;
