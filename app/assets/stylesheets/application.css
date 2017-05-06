@@ -30,7 +30,7 @@ body {
   min-height: 1vh;
 }
 
-@media(max-width:670px){
+@media(max-width:1000px){
 	herder-logo{width:30%;}
 	header-logo a{font-size:10px;}
 	herder-logo li{font-size:10px;}
